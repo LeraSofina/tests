@@ -10,7 +10,6 @@ class UsersYD:
             'Accept': 'application/json',
             'Content-Type': 'application/json'
         }
-        # self.dir_href = None
 
     def create_folder(self, name_dir: str):
         params = {
